@@ -1,6 +1,7 @@
 import React from "react";
+import ItemCount from "../ItemCount/ItemCount";
 
-const Card = ({img,title,info,textButton}) => {
+const Card = ({img,title,info}) => {
 
     return (
         <div className="card">
@@ -10,16 +11,13 @@ const Card = ({img,title,info,textButton}) => {
             <p className="card-text text-dark">
                 {info}
             </p>
-            <button className="btn btn-primary">
-                {textButton}
-            </button>
+            <ItemCount/>
+
         </div>
 </div>
 
     )
 }
-
-
 
 
 
