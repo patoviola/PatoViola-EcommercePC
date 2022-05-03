@@ -5,12 +5,7 @@ import pcGamer from '../../assetes/img/pcGamer.jpg'
 function Content() {
 
   return (
-    <main className='d-flex justify-content-evenly p-5'>
-        <Card
-        img={pcGamer}
-        title={'Intel I5 10ma Gen Hd 1tb Ddr4 4gb Led 19 Gamer'}
-        info={'La mejor PC para iniciarse en el mundo Gamer'}
-        textButton={'Comprar'}/>
+    <main className='d-flex flex-wrap justify-content-evenly p-5'>
         <Card
         img={pcGamer}
         title={'SuperCompu3000'}
